@@ -20,4 +20,15 @@ scale out - utiliza de servidores extras durante período pré definido afim de 
 
 
 Trade Off - Fornecido pela nuvem, aloca servidores em momentos de pico de acesso e depois retira os mesmos do ar
-IAC ianfraestrutsas
+IAC Infraestructure as a code 
+Acoplamento é quando uma parte não pode ser substituida, pois outras partes precisam dela
+
+ELB (Elastic Load Balancing) Distribuição de tarefas, melhorando perfomance
+Se a máquina não estiver ativa, o load balance não envia os dados
+Fazendo com que elas sejam facilmente substituiveis, sem acoplamento
+
+Serviço precisa rodar em algum ambiente, pode não ser na máquina, por conta da disponibilidade
+
+escalabilidade horizontal
+replicas de leitura de bancos --> gargalo do banco relacional
+
