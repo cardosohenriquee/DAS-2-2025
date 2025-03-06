@@ -19,4 +19,5 @@ scale out - utiliza de servidores extras durante período pré definido afim de 
 # AULA 06/03 #
 
 
-
+Trade Off - Fornecido pela nuvem, aloca servidores em momentos de pico de acesso e depois retira os mesmos do ar
+IAC ianfraestrutsas
