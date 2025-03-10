@@ -20,7 +20,7 @@ scale out - utiliza de servidores extras durante período pré definido afim de 
 
 
 Trade Off - Fornecido pela nuvem, aloca servidores em momentos de pico de acesso e depois retira os mesmos do ar
-IAC Infraestructure as a code 
+IAC Infraestructure as code
 Acoplamento é quando uma parte não pode ser substituida, pois outras partes precisam dela
 
 ELB (Elastic Load Balancing) Distribuição de tarefas, melhorando perfomance
@@ -31,4 +31,34 @@ Serviço precisa rodar em algum ambiente, pode não ser na máquina, por conta d
 
 escalabilidade horizontal
 replicas de leitura de bancos --> gargalo do banco relacional
+
+# AULA 10/03
+
+região - região que possui uma infra da aws
+zone - conjunto de datacenters
+az - diversas zonas
+
+local zone < az
+
+shared responsibility
+aws - infrasestrutura de hardware
+cliente - todo o resto
+
+provedor de identidade forte
+proteger dados em transito e repouso
+segurança em todas camadas
+people away from data
+rastreabilidade
+preparar para eventos de segurança
+automatizar segurança
+
+customer ---> iam policy ---> data
+
+least privilege - dba mexe no banco e apenas
+
+
+
+
+
+
 
