@@ -54,9 +54,20 @@ automatizar segurança
 
 customer ---> iam policy ---> data
 
-least privilege - dba mexe no banco e apenas
+least privilege - dba mexe no banco e apenas - usuário mexe apenas oonawawdsaawde 
+
+# AULA 13/03
 
 
+console --> inteface web da aws
+acesso cosole
+acesso programático --> assume um sfotware para controlar o console
+
+access key
+secret acesses key --> mostrada apenas uma vez na hora da criação, podendo editar, excluir e criar novas
+
+criar grupos para padronização de permissão
+facilita gerenciamento
 
 
 
