@@ -58,16 +58,37 @@ least privilege - dba mexe no banco e apenas - usuário mexe apenas oonawawdsaaw
 
 # AULA 13/03
 
+responsabilidade compartilhada --> cada parte tem sua responsabilidade (aws - hardware, cliente - software)
 
 console --> inteface web da aws
 acesso cosole
 acesso programático --> assume um sfotware para controlar o console
+via aws cli, swa sdk ou api rest
 
 access key
 secret acesses key --> mostrada apenas uma vez na hora da criação, podendo editar, excluir e criar novas
 
 criar grupos para padronização de permissão
 facilita gerenciamento
+
+# AULA 17/03
+
+usuário root - usuário Deus
+padrão de permissionamento --> RBAC - de acordo com o papel, suas permissões são definidas
+
+policies gerenciada --> pronta para uso e manutenção da aws proativa
+arn amazon resource name 
+
+policie de recurso --> vai no recurso e escreve um documento com as permissões pelo código --> não tem permissão para mexer em permissão via IAM
+
+verificar permissões na hora da ação
+usuário sem permissão nem loga na plataforma
+
+tipo de armazenamento
+- armazenamento por bloco (suportam edição no meio do arquivo) EBS
+- armazenamento por arquivo (máquina trocando arquivos através do servidor) EFS ou FXs
+- armazenamento em objeto (tag) S3
+
 
 
 
