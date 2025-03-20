@@ -89,7 +89,40 @@ tipo de armazenamento
 - armazenamento por arquivo (máquina trocando arquivos através do servidor) EFS ou FXs
 - armazenamento em objeto (tag) S3
 
+# AULA 20/03 #
 
+limite bucket
+5 tera por objeto - standard
+
+
+arquivos são chamados de objeto porque o s3 guarda binario mais metadado
+buckets globalmente únicos
+nome do arquivo faz parte da url publica
+
+pastas são os prefixos - não existe pasta
+5gb< multipart uploads
+
+
+storage class - forma com que o s3 guarda informação
+define preço e disponibilidade do arquivo
+
+# classe quentes, acesos instantaneo ao objeto #
+GENERAL PUPOSE - s3 standard - preço de download mais barato, preço de armazenamento mais caro de todos - nenhum alteração feita na configuração
+
+INTELLIGENT TIERING - s3 intelligence tireinf - 
+
+INFREQUENT ACCESS - s3 standard ia - poucos acessos no mês, armazenamento mais barato e download mais caro que s3 standard
+
+INFREQUENT ACCESS - s3 one zone ia - arquivo de fácil disponibilidade -perde na durabilidade (11 9's) ao invés de fazer 3 cópias, faz uma - armazenamento mais barato e download mais caro que s3 standard
+
+# classe frias - acesso não instantaneo #
+ARCHIVE - s3 glacier instant retrieval - volta o arquivo em milisegundos - armazenamento e download caro
+
+ARCHIVE - s3 glacier flexible retrieval - tempo menor de download - minutos a horas para voltar o arquivo - um pouco mais caro para guardar, mas volta mais rápido
+
+ARCHIVE - s3 glaicer deep archive - 12 a 48 horas para download, backup de 10 anos, notas fiscais antigas - armazenamento mais barato download caro
+
+ARCHIVE - s3 on outposts - servidor físico para empresas - máximo 96 hacks
 
 
 
