@@ -124,6 +124,19 @@ ARCHIVE - s3 glaicer deep archive - 12 a 48 horas para download, backup de 10 an
 
 ARCHIVE - s3 on outposts - servidor físico para empresas - máximo 96 hacks
 
+# AULA 24/03 #
 
+lifecycles s3 - conjunto de regras para transacionar entre classes ou apagar um arquivo MEGA IMPORTANTE
+
+s3 permite versionar os objetos
+nasce com versão desligada, se habilita não tem como desabilitar, da para pausar
+
+chave unica impede a exclusão de arquivos
+se o arquivo for marcado como apagado, não tem como buscar 
+
+CORS - proteção para arquivos
+navegador faz a checagem do CORS
+
+foi mal sor hj n prestei atenção
 
 
