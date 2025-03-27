@@ -139,4 +139,6 @@ navegador faz a checagem do CORS
 
 foi mal sor hj n prestei atenção
 
+# AULA 27/03 #
+
 
