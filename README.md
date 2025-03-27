@@ -141,4 +141,9 @@ foi mal sor hj n prestei atenção
 
 # AULA 27/03 #
 
+... configurando projeto em py
+
+https://docs.github.com/en/copilot/using-github-copilot/copilot-chat/github-copilot-chat-cheat-sheet
+dica do documentação comandos vscode
+
 
