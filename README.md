@@ -146,4 +146,34 @@ foi mal sor hj n prestei atenção
 https://docs.github.com/en/copilot/using-github-copilot/copilot-chat/github-copilot-chat-cheat-sheet
 dica do documentação comandos vscode
 
+# AULA 05/05 #
+
+VPC - Virtual private cloud - pertence a uma única região
+software defined network - SDN da aws
+
+CIDR block - definir tamanho da rede
+
+topologia de rede fisicas que conecta sevidores, encima cria uma camada de abstração para criar as conexões que quiser
+
+Conta do aws - primeiro nivel de isolamento
+Regiões - segundo nível de isolamento
+    - o que está em uma região não conversa com outra região
+Az's  conjunto de datacenter - terceiro nível de isolamento
+
+subnet - subdivisão da vpc - CIDR único
+
+todos dispositivo gerenciado pode ter uma tabela de rotas 
+no aws toda vpc tem sua tabela de rotas padrão
+ - a regra é fixa e você não pode alterar
+ - esse regra permite comunicação local entre dispositivos
+ - ip privado estático para cada recurso/subrede
+ - subnets vivem dentro de um az
+ - duas redes com a mesma mascara não conversam
+
+ subnet publica - recursos dentro dela, estão visíveis para internet pública de fora pra dentro e vice-versa
+
+
+ 
+
+
 
