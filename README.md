@@ -170,7 +170,44 @@ no aws toda vpc tem sua tabela de rotas padrão
  - subnets vivem dentro de um az
  - duas redes com a mesma mascara não conversam
 
- subnet publica - recursos dentro dela, estão visíveis para internet pública de fora pra dentro e vice-versa
+ subnet publica - recursos dentro dela, estão visíveis para internet de fora pra dentro e vice-versa
+
+ # AULA 08/05 #
+
+public subnet
+cada maquina tem o ip privado e o publico, a maquina não sabe o ip publico
+
+nat - requisição chega pelo ip publico, passa pelo nat 
+nat faz a troca de pacote do ip, troca do publico para privado e vice-versa
+5 ips publicos por região
+
+private subnets - maquina não encontra internet, internet não encontra máquina
+
+gateway, subnet ppublic, regra para gateway
+dentro da public subnet, nat gateway (nat atras de outro nat)
+nat gateway so aceita requisições do ip privado, se for de fora, da um drop na hora
+
+banco de dados - privado
+bath processing - privado
+aplicação web - público (melhor para ocasião)
+nat gateway = publico
+
+security group - configura ao criar o servidor
+fica junto da aplicação dentro subnet privada
+regra apenas inbound
+tio da catraca
+
+network ACL - fica na rede da AAWS 
+tem duas regras, inbound e outbound
+stateless
+imigração passaporte
+
+
+
+
+
+
+ 
 
 
  
