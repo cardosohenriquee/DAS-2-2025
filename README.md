@@ -202,6 +202,10 @@ tem duas regras, inbound e outbound
 stateless
 imigração passaporte
 
+# AULA 12/05 #
+
+If a subnet is associated with a route table that has a route to an internet gateway, it is known as a public subnet.
+
 
 
 
