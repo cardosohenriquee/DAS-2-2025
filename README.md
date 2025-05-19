@@ -206,15 +206,16 @@ imigração passaporte
 
 If a subnet is associated with a route table that has a route to an internet gateway, it is known as a public subnet.
 
+# AULA 19/05 #
 
+full mesh architecture - vpcs conversam entrem si
+hub and spoke architecture - vpc fala com hub que fala com vpc e vice versa
 
+transit gateway - gerenciador central
+regional, vive dentro de uma região da aws
+pode gerenciar até 5000 attachments, por exemplo VPCs, vpn
 
-
-
- 
-
-
- 
-
-
+peering para duas redes na mesma região da aws, é gratuíto
+saindo da região, existe um custo para o peering
+peering não suporta transitividade A conversa com B e B com C, mas não A com C
 
