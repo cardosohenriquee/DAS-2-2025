@@ -219,3 +219,13 @@ peering para duas redes na mesma região da aws, é gratuíto
 saindo da região, existe um custo para o peering
 peering não suporta transitividade A conversa com B e B com C, mas não A com C
 
+# AULA 26/06 #
+
+IAM Groups
+grupos com determinadas permissões que podem ao participarem do grupo, herdam as permissões dos mesmos
+facili para gerenciar
+
+grupos não podem ter grupos dentro deles
+
+RBAC - permissão temporaria baseada em roles, usuário assume um papel com permissões
+ABAC - permissão baseada em uma permissão
