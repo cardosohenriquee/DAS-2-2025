@@ -229,3 +229,23 @@ grupos não podem ter grupos dentro deles
 
 RBAC - permissão temporaria baseada em roles, usuário assume um papel com permissões
 ABAC - permissão baseada em uma permissão
+
+# AULA 02/06 #
+
+monitoramenteo de aplicação
+- entender saúde operacional da aplicação
+- utilização/otimização de recursos
+- performace da aplicação
+- segurança
+
+logs complementam as métricas
+
+maneiras de coletar logs e métricas
+sdk
+cli
+api rest
+cloudwatch
+
+período padrão para expirar os logs --> nunca expira
+é possível contabilizar quantas vezes gerou um erro através dos logs, tendo métrica para gerar alarmes e dashboard
+
