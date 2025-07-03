@@ -219,7 +219,7 @@ peering para duas redes na mesma região da aws, é gratuíto
 saindo da região, existe um custo para o peering
 peering não suporta transitividade A conversa com B e B com C, mas não A com C
 
-# AULA 26/06 #
+# AULA 26/05 #
 
 IAM Groups
 grupos com determinadas permissões que podem ao participarem do grupo, herdam as permissões dos mesmos
@@ -248,4 +248,58 @@ cloudwatch
 
 período padrão para expirar os logs --> nunca expira
 é possível contabilizar quantas vezes gerou um erro através dos logs, tendo métrica para gerar alarmes e dashboard
+
+# AULA 09/06 #
+
+Realizados os Laboratórios Canvas AWS
+
+# AULA 12/06 #
+
+Realizados os Laboratórios Canvas AWS
+
+# AULA 16/06 # 
+
+load balance - elastic load balancer ELB
+
+gerencia tráfego de aplicações, sem afetar a experiêncai do usuário final
+distribui automaticamente o tráfego de entrada em diferente alvos (instâncias EC2, containers, endereços de IP ou zonas do aws)
+
+application load balancer 
+- ideal para microserviços com tráfeo via HTTP e HTTPS, por analisar o conteúdo da requisição
+
+network load balancer
+- preparado para aplicações com desempenho alto e pouca latência, ideal para tráfego TCP e TLS
+
+classic load balancer
+- primeiro load balancer da AWS, ainda está disponível mas a própria empresa recomenda outros
+
+
+route 53 - responsável pelo serviço de dns da aws
+roteamento de diversas maneira (simples, ponderado, baseado em latência, failover e geolocalização)
+
+# AULA 23/06 #
+
+IAC - infraestrutura como código
+
+ao invés de configurar ambientes de nuvem manualmente, a aws permite que seja setado essa variáveis via linha de código
+
+velocidade e eficiência - cria ambientes complexos de desenvolvimento a produção em minutos
+consitência - template de IAC garante que todas as diferenças que surgem quandos ambientes estão sendo configurados, sejam eliminadas com a criação pelo template
+
+# AULA 26/06 #
+
+padrões de comunicação assíncrona = aplicações mais resilientes e escaláveis
+
+Amazon SQS - serviço de fila, funciona como um broker de mensageria, muito semelhante ao Kafka pelo que entendi
+Amazon SNS - seviço de tópicos, uma mensagem é criada pelo publisher e distribuida para todos os assinantes (na verdade esse é mais parecido com Kafka)
+Amazon EventBridge - recebe eventos de diversas origens e utiliza regras para filtrar e rotear esses eventos para os destinos específicos
+
+
+
+# AGRADECIMENTO #
+
+Valeu sor, obrigado pela matéria e apoio durante todo o curso, você fez a diferença. 
+Me sinto seguro em dizer que você foi o melhor professor que tive ao longo dessa jornada!!!
+
+Obs: Obrigado por ter apresentado o bloquinho para nós, uso todos os dias sem falta.
 
